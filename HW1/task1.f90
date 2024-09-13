@@ -1,4 +1,4 @@
-program machine_epsilon
+program task1
     implicit none
     real(8) :: epsilon
     epsilon = 1.0d0
@@ -7,4 +7,4 @@ program machine_epsilon
     end do
     epsilon = epsilon * 2.0d0
     print *, "epsilon=",epsilon
-end program machine_epsilon
+end program task1
