@@ -4,8 +4,8 @@ program sinus
     double precision :: l1, l2, delta, sum, x
     integer :: i
 
-    l1 = 3.14159265358979323846    ! π
-    l2 = 1.5 * l1                  ! 3π/2
+    l1 = 3.14    
+    l2 = 1.5 * l1                  
     delta = (l2 - l1) / n
     sum = 0.0
 
